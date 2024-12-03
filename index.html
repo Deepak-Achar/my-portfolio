@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepak's Portfolio</title>
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <link rel="icon" type="image/png" href="./public/favicons/D.png" />
+    <script src="https://kit.fontawesome.com/f6f6dc9eec.js" crossorigin="anonymous"></script>
+
+    <!-- Scroll to Top ⬆️ -->
+    <script src="./static/js/scrollToTop.js" defer></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo-text">Deepak M N</p>
+                <!-- <img src="./assets/images/logo.png" class="logo" /> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <h1>
+                    Hi, I'm
+                    <span class="name">Deepak<br />M N</span>
+                </h1>
+                <p> Recent graduate in Computer Science and Engineering</p>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------About----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="img007" src="./assets/images/Profile/proimage.jpg" />
+                </div>
+                <div class="about-col-2 animate-entry-1">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p class="p-007"></p>
+
+                    <p id="self_info">
+                        "Hi, I'm Deepak M N Computer Science and Engineering. I've been passionate about coding and creating visually appealing websites. I'm excited to continue learning and growing in development
+                        skills. With expertise in HTML5, CSS3, and JavaScript.If you're looking for a motivated and skilled front-end developer, I'd love to connect and discuss how I can contribute to your team or project."
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </div>
+                        <div class="tab-links" onclick="opentab('education')">
+                            Education
+                        </div>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+
+                            <li>
+                                <span>Front-End Web Development</span><br />HTML5, CSS3, JavaScript
+                            </li>
+                            <li>
+                                <span>Programming Skill</span><br />C/C++,Python,Java
+                            </li>
+                            <li>
+                                <span>Back-End Web Development</span><br />MySQL
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>B.tech in CSE</span><br />Ballari Institute of Technology and management<br />Cgpa:8.3
+                            </li>
+                            <li>
+                                <span>PUC</span><br />New Sri Chaitanya pu College
+                                <br />Grade:76.83%
+                            </li>
+                            <li>
+                                <span>SSLC</span><br />St John's High School <br />Grade:70.88%
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Hacktoberfest</span><br />Open Source Contribution</li>
+                            <li>
+                                <span>Growth Ninja</span><br /> Front-End Web Development <br /> HTML5, CSS3, JavaScript, ReactJs
+                            </li>
+                            <li>
+                                <span>Back-End</span><br />ExpressJs, Nodejs, MongoDB
+                            </li>
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------Projects----------------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list animate-entry-1">
+                <div>
+                    <i class="fas fa-stroopwafel"></i>
+                    <h2>Agro Farm Management System
+                    </h2>
+                    <p class="p-007">
+                        Developed a Agro farm Management System that facilitates platform for farmers and buyers for selling and buying agricultural crop products.<br> •Utilized HTML, CSS, PHP and MySQL to create the web-based user interface. <br>•Incorporated
+                        a rating and feedback mechanism, enabling buyers to provide feedback on product quality and farmers' services. <br>•Successfully collaborated with a team to deliver the project within the specified timeframe, showcasing strong
+                        teamwork and project management skills.
+                        <a href="https://github.com/Deepak-Achar/AgroFarm-Management-" target="_blank"><span style="font-size: 22px">View Project</span></a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Car Loan Emi calculator Android Application
+            </h2>
+            <p class="p-007">
+                •Developed a user-friendly Android application for calculating Equated Monthly
+                Installments (EMI) for car loans.<br>
+                •Utilized core Android development tools(XML) and Java programming language for
+                building the application.<br>
+                •Utilized AIDL(Android Interface Definition Language) to define the interface for the
+                service, allowing secure and efficient communication between the application's client
+                and the service.
+            </p>
+            <a
+              href="https://github.com/Deepak-Achar/car_loan_Emi_calculator"
+              target="_blank"
+              ><span style="font-size: 22px">View Project</span></a
+            ><br />
+          </div>
+          <div>
+            <i class="fas fa-tasks"></i>
+            <h2>Python Spelling Checker</h2>
+            <p class="p-007">
+                Developed an Offline Spelling Checker and Dictionary application using Python.<br>
+                •Utilized library Tkinter for GUI development, Spellchecker library for spell-checking.
+            </p>
+            <a
+              href="https://github.com/Deepak-Achar/python-spelling-checker/tree/main"
+              target="_blank"
+              ><span style="font-size: 22px">View Project</span></a
+            ><br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------------Contact Us-------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i
+              ><a class="email" href="mailto:741236985deepak@gmail.com"
+                >741236985deepak@gmail.com</a
+              >
+            </p>
+
+            <div class="social-icons">
+    
+                    <!-- Adding the new logo of Twitter -->
+                 
+                    <a href="https://www.linkedin.com/in/deepak-m-n-49b967212/" target="_blank"><i class="fab fa-linkedin"></i
+              ></a>
+                        <a href="https://github.com/Deepak-Achar" target="_blank"><i class="fab fa-github"></i
+              ></a>
+                </div>
+                <a href="./assets/docs/Deepak_M_N_Resume.pdf" download class="btn btn2">Download CV</a
+            >
+          </div>
+          <div class="contact-right animate-entry-1">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Good Name.."
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email..."
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message..."
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- My btn -->
+      <button class="back-to-top hidden-top-btn">
+        <a href="#header"><i class="fa-solid fa-arrow-up fa-xl"></i></a>
+                </button>
+                <div class="copyright">
+                    <p>
+                        © 2023,Deepak M N Portfolio. All Rights Reserved.
+                        <i class="fa-solid fa-heart"></i> Made with HTML, CSS and JavaScript
+                    </p>
+                </div>
+            </div>
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+            <script>
+                var sidemenu = document.getElementById("sidemenu");
+
+                function openmenu() {
+                    sidemenu.style.right = "0";
+                }
+
+                function closemenu() {
+                    sidemenu.style.right = "-200px";
+                }
+            </script>
+            <script>
+                const scriptURL =
+                    "https://script.google.com/macros/s/AKfycbxH5fxfqQLK9QR05D20SKhSxipraz0xHX-FsiWRiLW0UL9nRH9WckUCHoCCEKWqE7GcSg/exec";
+                const form = document.forms["submit-to-google-sheet"];
+                const msg = document.getElementById("msg");
+                form.addEventListener("submit", (e) => {
+                    e.preventDefault();
+                    fetch(scriptURL, {
+                            method: "POST",
+                            body: new FormData(form)
+                        })
+                        .then((response) => {
+                            msg.innerHTML =
+                                "ThankYou. Your Message has been sent Successfully.";
+                            setTimeout(function() {
+                                msg.innerHTML = "";
+                            }, 5000);
+                            form.reset();
+                        })
+                        .catch((error) => console.error("Error!", error.message));
+                });
+            </script>
+            <script>
+                window.addEventListener("scroll", function() {
+                    var nav = document.querySelector("nav");
+                    nav.classList.toggle("scrolled", window.scrollY > 0);
+                });
+            </script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    const slideInElement = document.querySelectorAll(".animate-entry-1");
+
+                    const observer = new IntersectionObserver((entries, observer) => {
+                        entries.forEach((entry) => {
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add("active-animation");
+                                // observer.unobserve(entry);
+                            }
+                        });
+                    });
+                    slideInElement.forEach((el) => observer.observe(el));
+                });
+            </script>
+            <!-- <script type="application/ld+json">
+                {
+                    "@context": "https://soniyaprasad77.github.io/",
+                    "@type": "Personal Portfolio Website",
+                    "name": "Soniya Prasad",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Soniya Prasad"
+                    },
+                    "datePublished": "2023-03-04",
+                    "description": "This is a Web Developer",
+                    "prepTime": "PT20M"
+                }
+            </script> -->
+            <script>
+                function thanking() {
+                    document.getElementById("thanks").innerHTML =
+                        "Thanks for your review!!";
+                }
+            </script>
+</body>
+
+</html>
